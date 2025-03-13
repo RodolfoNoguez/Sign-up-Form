@@ -109,17 +109,39 @@ label{
 }
 
 .logo-overlay{
-    position: absolute; /* Places the text on top */
-    top: 30%; /* Vertically center */
-    left: 50%; /* Horizontally center */
-    transform: translate(-50%, -50%); /* Adjusts to truly center the text */
-    color: white; /* Text color */
-    font-size: 24px; /* Font size */
-    font-weight: bold; /* Bold text */
-    text-align: center; /* Centers the text */
-    
+    position: absolute; 
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 30vw;
+}
+
+.logo-over{
+    position: absolute; 
+    top: 95%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1rem; 
+    font-weight: bold;
+    text-align: center; 
+    width: 30vw;
 }
 .logo-container{
-    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    background-color: rgba(0, 0, 0, 0.5); 
 
+}
+
+input:invalid {
+    border: 2px solid red; 
+}
+
+.odin-image{
+    width: 4vw;
+    height: 8vh;
 }
